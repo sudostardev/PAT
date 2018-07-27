@@ -47,8 +47,7 @@ int main() {
 	int num = k;
 	while (num <= n) {
 		for (int i = 0; i < k; ++i) {
-			int t = num - 1 - i;
-			b.push_back(a[t]);
+			b.push_back(a[num - 1 - i]);
 		}
 		num += k;
 	}
